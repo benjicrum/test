@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <label for="result1">Result 1:</label><br>
+        <p>1: 1-6 2: 7-14 3: 15-20</p>
+        <input type="text" id="pos1" name="pos1" placeholder="Position" required> <br> <br>
+
+        <input type="text" id="resulth1" name="result1"  placeholder="Your team" required> VS <input type="text" id="resulta1" name="result1"  placeholder="Other team" required>
+        <p id="r1">Points: 0</p><br>
+
+        <label for="result2">Result 2:</label><br>
+        <p>1: 1-6 2: 7-14 3: 15-20</p>
+        <input type="text" id="pos2" name="pos2" placeholder="Position" required> <br> <br>
+
+        <input type="text" id="resulth2" name="result2"  placeholder="Your team" required> VS <input type="text" id="resulta2" name="result2"  placeholder="Other team" required>
+        <p id="r2">Points: 0</p><br>
+
+        <label for="result3">Result 3:</label><br>
+        <p>1: 1-6 2: 7-14 3: 15-30</p>
+        <input type="text" id="pos3" name="pos3" placeholder="Position" required> <br> <br>
+
+        <input type="text" id="resulth3" name="result3"  placeholder="Your team" required> VS <input type="text" id="resulta3" name="result3"  placeholder="Other team" required>
+        <p id="r3">Points: 0</p><br>
+
+        <label for="result4">Result 4:</label><br>
+        <p>1: 1-6 2: 7-14 3: 15-20</p>
+        <input type="text" id="pos4" name="pos4" placeholder="Position" required> <br> <br>
+
+        <input type="text" id="resulth4" name="result4"  placeholder="Your team" required> VS <input type="text" id="resulta4" name="result4"  placeholder="Other team" required>
+        <p id="r4">Points: 0</p><br>
+
+        <label for="result5">Result 5:</label><br>
+        <p>1: 1-6 2: 7-14 3: 15-20</p>
+        <input type="text" id="pos5" name="pos5" placeholder="Position" required> <br> <br>
+
+        <input type="text" id="resulth5" name="result5"  placeholder="Your team" required> VS <input type="text" id="resulta5" name="result5"  placeholder="Other team" required>
+        <p id="r5">Points: 0</p><br>
+
+        <p id="totpoints">Total points: 0</p>
+        <p id="scored">Total goals scored: 0</p>
+        <p id="gspg">Goals scored per game: 0</p>
+        <p id="conceded">Total goals conceded: 0</p>
+        <p id="gcpg">Goals conceded per game: 0</p>
+
+        <input type="submit" value="Submit" onclick="calc(event)">
+    </form>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
