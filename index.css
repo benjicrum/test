@@ -1,11 +1,14 @@
-#pos12 {
-    display: none;
+.container {
+    text-align: center;
 }
 
-#pos13 {
-    display: none;
+.bob {
+    width: 50%;
+    text-align: center;
 }
 
-#pos11 {
-    display: block;
+body {
+    background-color: #CCE5E4;
+    color: black;
 }
+
