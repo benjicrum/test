@@ -1,0 +1,13 @@
+#hg {
+    width: 50%;
+    float: left;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+}
+
+#home, #away, #vs{
+    padding: 20px;
+}

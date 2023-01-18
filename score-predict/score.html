@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="score.css">
+    <title>Score</title>
+</head>
+<body>
+    
+    <form>
+        <div id="hg">
+            <p>Game 1:</p>
+            <input pattern="[0-9]*" type="text" id="hg1" name="hg1" placeholder="Position" required> <br> <br>
+            <p>Game 2:</p>
+            <input pattern="[0-9]*" type="text" id="hg2" name="hg2" placeholder="Position" required> <br> <br>
+            <p>Game 3:</p>
+            <input pattern="[0-9]*" type="text" id="hg3" name="hg3" placeholder="Position" required> <br> <br>
+            <p>Game 4:</p>
+            <input pattern="[0-9]*" type="text" id="hg4" name="hg4" placeholder="Position" required> <br> <br>
+            <p>Game 5:</p>
+            <input pattern="[0-9]*" type="text" id="hg5" name="hg5" placeholder="Position" required> <br> <br>
+        </div>
+
+        <div class="ag">
+            <p>Game 1:</p>
+            <input pattern="[0-9]*" type="text" id="ag1" name="ag1" placeholder="Position" required> <br> <br>
+            <p>Game 2:</p>
+            <input pattern="[0-9]*" type="text" id="ag2" name="ag2" placeholder="Position" required> <br> <br>
+            <p>Game 3:</p>
+            <input pattern="[0-9]*" type="text" id="ag3" name="ag3" placeholder="Position" required> <br> <br>
+            <p>Game 4:</p>
+            <input pattern="[0-9]*" type="text" id="ag4" name="ag4" placeholder="Position" required> <br> <br>
+            <p>Game 5:</p>
+            <input pattern="[0-9]*" type="text" id="ag5" name="ag5" placeholder="Position" required> <br> <br>
+        </div>
+
+        <input type="submit" value="Submit" onclick="score(event)">
+    </form>
+    <div class="score">
+        <p id="home">0</p><p id="vs">VS</p><p id="away">0</p>
+    </div>
+
+    <script src="../score-predict/score.js"></script>
+</body>
+</html>
